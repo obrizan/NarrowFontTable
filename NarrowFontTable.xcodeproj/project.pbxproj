@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC56AEAF1706ED790043CD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC56AEAE1706ED790043CD00 /* UIKit.framework */; };
+		BC56AEB11706ED790043CD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC56AEB01706ED790043CD00 /* Foundation.framework */; };
+		BC56AEB31706ED790043CD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC56AEB21706ED790043CD00 /* CoreGraphics.framework */; };
+		BC56AEB91706ED790043CD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC56AEB71706ED790043CD00 /* InfoPlist.strings */; };
+		BC56AEBB1706ED790043CD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56AEBA1706ED790043CD00 /* main.m */; };
+		BC56AEBF1706ED790043CD00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56AEBE1706ED790043CD00 /* AppDelegate.m */; };
+		BC56AEC11706ED790043CD00 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC56AEC01706ED790043CD00 /* Default.png */; };
+		BC56AEC31706ED790043CD00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC56AEC21706ED790043CD00 /* Default@2x.png */; };
+		BC56AEC51706ED790043CD00 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC56AEC41706ED790043CD00 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC56AEAB1706ED790043CD00 /* NarrowFontTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarrowFontTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC56AEAE1706ED790043CD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC56AEB01706ED790043CD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC56AEB21706ED790043CD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC56AEB61706ED790043CD00 /* NarrowFontTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NarrowFontTable-Info.plist"; sourceTree = "<group>"; };
+		BC56AEB81706ED790043CD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC56AEBA1706ED790043CD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC56AEBC1706ED790043CD00 /* NarrowFontTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NarrowFontTable-Prefix.pch"; sourceTree = "<group>"; };
+		BC56AEBD1706ED790043CD00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC56AEBE1706ED790043CD00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC56AEC01706ED790043CD00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BC56AEC21706ED790043CD00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BC56AEC41706ED790043CD00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC56AEA81706ED790043CD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC56AEAF1706ED790043CD00 /* UIKit.framework in Frameworks */,
+				BC56AEB11706ED790043CD00 /* Foundation.framework in Frameworks */,
+				BC56AEB31706ED790043CD00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC56AEA21706ED790043CD00 = {
+			isa = PBXGroup;
+			children = (
+				BC56AEB41706ED790043CD00 /* NarrowFontTable */,
+				BC56AEAD1706ED790043CD00 /* Frameworks */,
+				BC56AEAC1706ED790043CD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC56AEAC1706ED790043CD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC56AEAB1706ED790043CD00 /* NarrowFontTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC56AEAD1706ED790043CD00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC56AEAE1706ED790043CD00 /* UIKit.framework */,
+				BC56AEB01706ED790043CD00 /* Foundation.framework */,
+				BC56AEB21706ED790043CD00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC56AEB41706ED790043CD00 /* NarrowFontTable */ = {
+			isa = PBXGroup;
+			children = (
+				BC56AEBD1706ED790043CD00 /* AppDelegate.h */,
+				BC56AEBE1706ED790043CD00 /* AppDelegate.m */,
+				BC56AEB51706ED790043CD00 /* Supporting Files */,
+			);
+			path = NarrowFontTable;
+			sourceTree = "<group>";
+		};
+		BC56AEB51706ED790043CD00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC56AEB61706ED790043CD00 /* NarrowFontTable-Info.plist */,
+				BC56AEB71706ED790043CD00 /* InfoPlist.strings */,
+				BC56AEBA1706ED790043CD00 /* main.m */,
+				BC56AEBC1706ED790043CD00 /* NarrowFontTable-Prefix.pch */,
+				BC56AEC01706ED790043CD00 /* Default.png */,
+				BC56AEC21706ED790043CD00 /* Default@2x.png */,
+				BC56AEC41706ED790043CD00 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC56AEAA1706ED790043CD00 /* NarrowFontTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC56AEC81706ED790043CD00 /* Build configuration list for PBXNativeTarget "NarrowFontTable" */;
+			buildPhases = (
+				BC56AEA71706ED790043CD00 /* Sources */,
+				BC56AEA81706ED790043CD00 /* Frameworks */,
+				BC56AEA91706ED790043CD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NarrowFontTable;
+			productName = NarrowFontTable;
+			productReference = BC56AEAB1706ED790043CD00 /* NarrowFontTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC56AEA31706ED790043CD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Design and Test Lab";
+			};
+			buildConfigurationList = BC56AEA61706ED790043CD00 /* Build configuration list for PBXProject "NarrowFontTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC56AEA21706ED790043CD00;
+			productRefGroup = BC56AEAC1706ED790043CD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC56AEAA1706ED790043CD00 /* NarrowFontTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC56AEA91706ED790043CD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC56AEB91706ED790043CD00 /* InfoPlist.strings in Resources */,
+				BC56AEC11706ED790043CD00 /* Default.png in Resources */,
+				BC56AEC31706ED790043CD00 /* Default@2x.png in Resources */,
+				BC56AEC51706ED790043CD00 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC56AEA71706ED790043CD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC56AEBB1706ED790043CD00 /* main.m in Sources */,
+				BC56AEBF1706ED790043CD00 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC56AEB71706ED790043CD00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC56AEB81706ED790043CD00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC56AEC61706ED790043CD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC56AEC71706ED790043CD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC56AEC91706ED790043CD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NarrowFontTable/NarrowFontTable-Prefix.pch";
+				INFOPLIST_FILE = "NarrowFontTable/NarrowFontTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC56AECA1706ED790043CD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NarrowFontTable/NarrowFontTable-Prefix.pch";
+				INFOPLIST_FILE = "NarrowFontTable/NarrowFontTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC56AEA61706ED790043CD00 /* Build configuration list for PBXProject "NarrowFontTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC56AEC61706ED790043CD00 /* Debug */,
+				BC56AEC71706ED790043CD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC56AEC81706ED790043CD00 /* Build configuration list for PBXNativeTarget "NarrowFontTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC56AEC91706ED790043CD00 /* Debug */,
+				BC56AECA1706ED790043CD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC56AEA31706ED790043CD00 /* Project object */;
+}
