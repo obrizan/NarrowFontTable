@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "TableViewController.h"
+
 @implementation AppDelegate
 
 - (void)dealloc
@@ -21,6 +23,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+	
+	self.window.rootViewController = [[TableViewController alloc] initWithStyle:UITableViewStylePlain];
+	
     [self.window makeKeyAndVisible];
     return YES;
 }
