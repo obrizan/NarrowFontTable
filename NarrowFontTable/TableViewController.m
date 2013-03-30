@@ -78,6 +78,7 @@ static NSArray *array = nil;
     if (!cell)
 	{
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+		cell.textLabel.font = [UIFont fontWithName:@"PTSans-NarrowBold" size:22.0];
 	}
 	
 	cell.textLabel.text = array[indexPath.row];
