@@ -78,7 +78,10 @@ static NSArray *array = nil;
     if (!cell)
 	{
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-		cell.textLabel.font = [UIFont fontWithName:@"PTSans-NarrowBold" size:22.0];
+		cell.textLabel.frame = CGRectMake(4.0, 6.0, 316.0, 32.0);
+		cell.textLabel.numberOfLines = 2;
+		//cell.textLabel.font = [UIFont boldSystemFontOfSize:16.0];
+		cell.textLabel.font = [UIFont fontWithName:@"PTSans-NarrowBold" size:16.0];
 	}
 	
 	cell.textLabel.text = array[indexPath.row];
